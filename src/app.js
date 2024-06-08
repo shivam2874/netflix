@@ -1,4 +1,4 @@
-import express from "express";
+import express, { json } from "express";
 import dotenv from "dotenv";
 import morgan from "morgan";
 import helmet from "helmet";
@@ -7,6 +7,7 @@ import compression from "compression";
 import fileupload from "express-fileupload";
 import cors from "cors";
 import createHttpError from "http-errors";
+import routes from "./routes/index.js";
 
 //dotenv config
 dotenv.config();
@@ -38,17 +39,30 @@ app.use(compression());
 //File Upload
 app.use(fileupload({ useTempFiles: true }));
 
-app.use(cors());
+app.use(
+  cors({ origin: "http://localhost:3000", origin: "http://localhost:3001" })
+);
 
-// app.use(async (req, res, next) => {
-//   next(createHttpError.NotFound("This Route Doesn't Exist"));
-// });
+//Api/v1 routes
+
+app.use("/api/v1/", routes);
+
+app.use(async (req, res, next) => {
+  next(createHttpError.NotFound("This Route Does not Exist"));
+});
 
 app.use(async (err, req, res, next) => {
+  res.status(err.status || 500);
   res.send({
-    error: err.status || 500,
-    message: err.message || "Internal Server Error",
+    error: {
+      status: err.status || 500,
+      message: err.message || "Internal Server Error",
+    },
   });
+});
+
+app.get("/", (req, res) => {
+  res.send("Hello from server");
 });
 
 export default app;
