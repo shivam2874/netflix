@@ -40,4 +40,15 @@ app.use(fileupload({ useTempFiles: true }));
 
 app.use(cors());
 
+// app.use(async (req, res, next) => {
+//   next(createHttpError.NotFound("This Route Doesn't Exist"));
+// });
+
+app.use(async (err, req, res, next) => {
+  res.send({
+    error: err.status || 500,
+    message: err.message || "Internal Server Error",
+  });
+});
+
 export default app;

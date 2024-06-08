@@ -1,7 +1,18 @@
 import app from "./app.js";
-import mongodb from "mongodb";
+import fs from "fs";
+import path from "path";
 import mongoose from "mongoose";
 import logger from "./config/logger.config.js";
+
+const filePath = path.join(path.resolve(), "Data", "dev-data.json");
+const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+
+app.get("/", (req, res) => {
+  res.status(200).json({
+    results: data.length,
+    data: data,
+  });
+});
 
 const PORT = process.env.PORT || 8000;
 const { DATABASE_URL } = process.env;
@@ -13,10 +24,6 @@ mongoose.connection.on("error", (err) => {
 
 mongoose.connect(DATABASE_URL, {}).then(() => {
   logger.info("Connected to Mongodb");
-});
-
-app.get("/", (req, res) => {
-  res.send("Hello aman from server");
 });
 
 let server;
@@ -40,4 +47,13 @@ const uncaughtErrorHandler = (error) => {
 
 process.on("uncaughtException", uncaughtErrorHandler);
 
-//SIGTERM 
+//SIGTERM
+
+process.on("SIGTERM", () => {
+  if (server) {
+    logger.info("Server Closed");
+    process.exit(1);
+  } else {
+    process.exit(1);
+  }
+});
