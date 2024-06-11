@@ -1,5 +1,20 @@
+import { createUser } from "../services/auth.service.js";
+
 export const register = async (req, res, next) => {
-  res.send("Hello from Register");
+  const { name, email, password, picture } = req.body;
+
+  const user = await createUser({
+    name,
+    email,
+    picture,
+    password,
+  });
+
+  try {
+    res.send(user);
+  } catch (error) {
+    next(error);
+  }
 };
 export const login = async (req, res, next) => {
   res.send("Hello from Login");
