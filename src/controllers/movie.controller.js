@@ -1,4 +1,4 @@
-export const allMovies = async (res, res, next) => {
+export const allMovies = async (req, res, next) => {
   try {
     res.send("Hello from  All Movies");
   } catch (error) {
