@@ -567,5 +567,543 @@
     "duration_minutes": 42,
     "seasons": 6,
     "total_episodes": 126
+  },
+  {
+    "title": "The Pursuit of Happyness",
+    "description": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional endeavor.",
+    "genre": ["Biography", "Drama"],
+    "release_year": 2006,
+    "director": "Gabriele Muccino",
+    "rating": "PG-13",
+    "cast": ["Will Smith", "Thandie Newton", "Jaden Smith"],
+    "duration_minutes": 117
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "description": "A concierge teams up with a lobby boy to prove his innocence after he is framed for murder.",
+    "genre": ["Adventure", "Comedy", "Crime"],
+    "release_year": 2014,
+    "director": "Wes Anderson",
+    "rating": "R",
+    "cast": ["Ralph Fiennes", "F. Murray Abraham", "Mathieu Amalric"],
+    "duration_minutes": 99
+  },
+  {
+    "title": "The Intouchables",
+    "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+    "genre": ["Biography", "Comedy", "Drama"],
+    "release_year": 2011,
+    "director": "Olivier Nakache, Éric Toledano",
+    "rating": "R",
+    "cast": ["François Cluzet", "Omar Sy", "Anne Le Ny"],
+    "duration_minutes": 112
+  },
+  {
+    "title": "Whiplash",
+    "description": "A promising young drummer enrolls at a cutthroat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+    "genre": ["Drama", "Music"],
+    "release_year": 2014,
+    "director": "Damien Chazelle",
+    "rating": "R",
+    "cast": ["Miles Teller", "J.K. Simmons", "Melissa Benoist"],
+    "duration_minutes": 106
+  },
+  {
+    "title": "The Prestige",
+    "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    "genre": ["Drama", "Mystery", "Sci-Fi"],
+    "release_year": 2006,
+    "director": "Christopher Nolan",
+    "rating": "PG-13",
+    "cast": ["Christian Bale", "Hugh Jackman", "Scarlett Johansson"],
+    "duration_minutes": 130
+  },
+  {
+    "title": "The Truman Show",
+    "description": "An insurance salesman discovers his whole life is actually a reality TV show.",
+    "genre": ["Comedy", "Drama", "Sci-Fi"],
+    "release_year": 1998,
+    "director": "Peter Weir",
+    "rating": "PG",
+    "cast": ["Jim Carrey", "Ed Harris", "Laura Linney"],
+    "duration_minutes": 103
+  },
+  {
+    "title": "Into the Wild",
+    "description": "After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness.",
+    "genre": ["Adventure", "Biography", "Drama"],
+    "release_year": 2007,
+    "director": "Sean Penn",
+    "rating": "R",
+    "cast": ["Emile Hirsch", "Vince Vaughn", "Catherine Keener"],
+    "duration_minutes": 148
+  },
+  {
+    "title": "Amélie",
+    "description": "Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.",
+    "genre": ["Comedy", "Romance"],
+    "release_year": 2001,
+    "director": "Jean-Pierre Jeunet",
+    "rating": "R"
+  },
+  {
+    "cast": ["Audrey Tautou", "Mathieu Kassovitz", "Rufus"],
+    "description": "Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.",
+    "director": "Jean-Pierre Jeunet",
+    "duration_minutes": 122,
+    "genre": ["Comedy", "Romance"],
+    "rating": "R",
+    "release_year": 2001,
+    "title": "Amélie"
+  },
+  {
+    "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "director": "Christopher Nolan",
+    "duration_minutes": 148,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": "PG-13",
+    "release_year": 2010,
+    "title": "Inception"
+  },
+  {
+    "cast": ["Tom Hanks", "Matt Damon", "Tom Sizemore"],
+    "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+    "director": "Steven Spielberg",
+    "duration_minutes": 169,
+    "genre": ["Drama", "War"],
+    "rating": "R",
+    "release_year": 1998,
+    "title": "Saving Private Ryan"
+  },
+  {
+    "cast": ["Tom Hanks", "Michael Clarke Duncan", "David Morse"],
+    "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+    "director": "Frank Darabont",
+    "duration_minutes": 189,
+    "genre": ["Crime", "Drama", "Fantasy"],
+    "rating": "R",
+    "release_year": 1999,
+    "title": "The Green Mile"
+  },
+  {
+    "cast": ["Daniel Craig", "Eva Green", "Judi Dench"],
+    "description": "After earning 00 status and a licence to kill, Secret Agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, Montenegro.",
+    "director": "Martin Campbell",
+    "duration_minutes": 144,
+    "genre": ["Action", "Adventure", "Thriller"],
+    "rating": "PG-13",
+    "release_year": 2006,
+    "title": "Casino Royale"
+  },
+  {
+    "cast": ["Ellen Burstyn", "Jared Leto", "Jennifer Connelly"],
+    "description": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
+    "director": "Darren Aronofsky",
+    "duration_minutes": 102,
+    "genre": ["Drama"],
+    "rating": "R",
+    "release_year": 2000,
+    "title": "Requiem for a Dream"
+  },
+  {
+    "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "director": "Christopher Nolan",
+    "duration_minutes": 152,
+    "genre": ["Action", "Crime", "Drama"],
+    "rating": "PG-13",
+    "release_year": 2008,
+    "title": "The Dark Knight"
+  },
+  {
+    "cast": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+    "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "director": "Quentin Tarantino",
+    "duration_minutes": 154,
+    "genre": ["Crime", "Drama"],
+    "rating": "R",
+    "release_year": 1994,
+    "title": "Pulp Fiction"
+  },
+  {
+    "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "director": "Christopher Nolan",
+    "duration_minutes": 169,
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rating": "PG-13",
+    "release_year": 2014,
+    "title": "Interstellar"
+  },
+  {
+    "cast": ["Brad Pitt", "Edward Norton", "Meat Loaf"],
+    "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    "director": "David Fincher",
+    "duration_minutes": 139,
+    "genre": ["Drama"],
+    "rating": "R",
+    "release_year": 1999,
+    "title": "Fight Club"
+  },
+  {
+    "title": "Bhaag Milkha Bhaag",
+    "description": "The truth behind the ascension of Milkha Singh who was scarred because of the India-Pakistan partition.",
+    "genre": ["Biography", "Drama", "Sport"],
+    "release_year": 2013,
+    "director": "Rakeysh Omprakash Mehra",
+    "rating": "PG-13",
+    "cast": ["Farhan Akhtar", "Sonam Kapoor", "Pavan Malhotra"],
+    "duration_minutes": 186
+  },
+  {
+    "title": "Queen",
+    "description": "A Delhi girl from a traditional family sets out on a solo honeymoon after her marriage gets canceled.",
+    "genre": ["Adventure", "Comedy", "Drama"],
+    "release_year": 2013,
+    "director": "Vikas Bahl",
+    "rating": "PG-13",
+    "cast": ["Kangana Ranaut", "Rajkummar Rao", "Lisa Haydon"],
+    "duration_minutes": 146
+  },
+  {
+    "title": "The Lion King",
+    "description": "A lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and responsibilities.",
+    "genre": ["Animation", "Adventure", "Drama"],
+    "release_year": 1994,
+    "director": "Roger Allers, Rob Minkoff",
+    "rating": "G",
+    "cast": ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"],
+    "duration_minutes": 88
+  },
+  {
+    "title": "The Lion King",
+    "description": "A lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and responsibilities.",
+    "genre": ["Animation", "Adventure", "Drama"],
+    "release_year": 1994,
+    "director": "Roger Allers, Rob Minkoff",
+    "rating": "G",
+    "cast": ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"],
+    "duration_minutes": 88
+  },
+  {
+    "title": "Schindler's List",
+    "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "genre": ["Biography", "Drama", "History"],
+    "release_year": 1993,
+    "director": "Steven Spielberg",
+    "rating": "R",
+    "cast": ["Liam Neeson", "Ralph Fiennes", "Ben Kingsley"],
+    "duration_minutes": 195
+  },
+  {
+    "title": "Life of Pi",
+    "description": "A young man who survives a disaster at sea is hurtled into an epic journey of adventure and discovery. While cast away, he forms an unexpected connection with another survivor: a fearsome Bengal tiger.",
+    "genre": ["Adventure", "Drama", "Fantasy"],
+    "release_year": 2012,
+    "director": "Ang Lee",
+    "rating": "PG",
+    "cast": ["Suraj Sharma", "Irrfan Khan", "Adil Hussain"],
+    "duration_minutes": 127
+  },
+  {
+    "title": "DDLJ (Dilwale Dulhania Le Jayenge)",
+    "description": "A young man and woman meet on a trip to Europe and fall in love despite the disapproval of their families.",
+    "genre": ["Comedy", "Drama", "Romance"],
+    "release_year": 1995,
+    "director": "Aditya Chopra",
+    "rating": "PG",
+    "cast": ["Shah Rukh Khan", "Kajol", "Amrish Puri"],
+    "duration_minutes": 189
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "description": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+    "genre": ["Adventure", "Comedy", "Crime"],
+    "release_year": 2014,
+    "director": "Wes Anderson",
+    "rating": "R",
+    "cast": ["Ralph Fiennes", "F. Murray Abraham", "Mathieu Amalric"],
+    "duration_minutes": 99
+  },
+  {
+    "title": "Inglourious Basterds",
+    "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+    "genre": ["Adventure", "Drama", "War"],
+    "release_year": 2009,
+    "director": "Quentin Tarantino",
+    "rating": "R",
+    "cast": ["Brad Pitt", "Diane Kruger", "Eli Roth"],
+    "duration_minutes": 153
+  },
+  {
+    "title": "Rang De Basanti",
+    "description": "The story of six young Indians who assist an Englishwoman to film a documentary on the freedom fighters from their past, and the events that lead them to relive the long-forgotten saga of freedom.",
+    "genre": ["Comedy", "Drama"],
+    "release_year": 2006,
+    "director": "Rakeysh Omprakash Mehra",
+    "rating": "PG-13",
+    "cast": ["Aamir Khan", "Soha Ali Khan", "Siddharth"],
+    "duration_minutes": 167
+  },
+  {
+    "title": "The Departed",
+    "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+    "genre": ["Crime", "Drama", "Thriller"],
+    "release_year": 2006,
+    "director": "Martin Scorsese",
+    "rating": "R",
+    "cast": ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson"],
+    "duration_minutes": 151
+  },
+  {
+    "title": "Barfi!",
+    "description": "Three young people learn that love can neither be defined nor contained by society's norms of normal and abnormal.",
+    "genre": ["Adventure", "Comedy", "Drama"],
+    "release_year": 2012,
+    "director": "Anurag Basu",
+    "rating": "PG",
+    "cast": ["Ranbir Kapoor", "Priyanka Chopra", "Ileana D'Cruz"],
+    "duration_minutes": 151
+  },
+  {
+    "title": "Gangs of Wasseypur",
+    "description": "A clash between Sultan and Shahid Khan leads to the expulsion of Khan from Wasseypur, and ignites a deadly blood feud spanning three generations.",
+    "genre": ["Action", "Crime", "Drama"],
+    "release_year": 2012,
+    "director": "Anurag Kashyap",
+    "rating": "R",
+    "cast": ["Manoj Bajpayee", "Richa Chadha", "Nawazuddin Siddiqui"],
+    "duration_minutes": 320
+  },
+  {
+    "title": "The Prestige",
+    "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    "genre": ["Drama", "Mystery", "Sci-Fi"],
+    "release_year": 2006,
+    "director": "Christopher Nolan",
+    "rating": "PG-13",
+    "cast": ["Christian Bale", "Hugh Jackman", "Scarlett Johansson"],
+    "duration_minutes": 130
+  },
+  {
+    "title": "Jodhaa Akbar",
+    "description": "A sixteenth-century love story about a marriage of alliance that gave birth to true love between a great Mughal emperor, Akbar, and a Rajput princess, Jodhaa.",
+    "genre": ["Action", "Drama", "History"],
+    "release_year": 2008,
+    "director": "Ashutosh Gowariker",
+    "rating": "PG",
+    "cast": ["Hrithik Roshan", "Aishwarya Rai Bachchan", "Sonu Sood"],
+    "duration_minutes": 213
+  },
+  {
+    "title": "The Intouchables",
+    "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+    "genre": ["Biography", "Comedy", "Drama"],
+    "release_year": 2011,
+    "director": "Olivier Nakache, Eric Toledano",
+    "rating": "R",
+    "cast": ["François Cluzet", "Omar Sy", "Anne Le Ny"],
+    "duration_minutes": 112
+  },
+  {
+    "title": "Andhadhun",
+    "description": "A series of mysterious events take place in the life of a blind pianist, who must now report a crime that he should technically know nothing of.",
+    "genre": ["Crime", "Drama", "Thriller"],
+    "release_year": 2018,
+    "director": "Sriram Raghavan",
+    "rating": "PG-13",
+    "cast": ["Ayushmann Khurrana", "Tabu", "Radhika Apte"],
+    "duration_minutes": 139
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+    "genre": ["Action", "Thriller"],
+    "release_year": 2012,
+    "director": "Christopher Nolan",
+    "rating": "PG-13",
+    "cast": ["Christian Bale", "Tom Hardy", "Anne Hathaway"],
+    "duration_minutes": 164
+  },
+  {
+    "title": "The Pursuit of Happyness",
+    "description": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional endeavor.",
+    "genre": ["Biography", "Drama"],
+    "release_year": 2006,
+    "director": "Gabriele Muccino",
+    "rating": "PG-13",
+    "cast": ["Will Smith", "Thandie Newton", "Jaden Smith"],
+    "duration_minutes": 117
+  },
+  {
+    "title": "Gully Boy",
+    "description": "A coming-of-age story based on the lives of street rappers in Mumbai.",
+    "genre": ["Drama", "Music"],
+    "release_year": 2019,
+    "director": "Zoya Akhtar",
+    "rating": "PG-13",
+    "cast": ["Ranveer Singh", "Alia Bhatt", "Siddhant Chaturvedi"],
+    "duration_minutes": 153
+  },
+  {
+    "title": "The Godfather: Part II",
+    "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+    "genre": ["Crime", "Drama"],
+    "release_year": 1974,
+    "director": "Francis Ford Coppola",
+    "rating": "R",
+    "cast": ["Al Pacino", "Robert De Niro", "Robert Duvall"],
+    "duration_minutes": 202
+  },
+  {
+    "title": "Zindagi Na Milegi Dobara",
+    "description": "Three friends decide to turn their fantasy vacation into reality after one of their number becomes engaged.",
+    "genre": ["Comedy", "Drama", "Romance"],
+    "release_year": 2011,
+    "director": "Zoya Akhtar",
+    "rating": "PG-13",
+    "cast": ["Hrithik Roshan", "Farhan Akhtar", "Abhay Deol"],
+    "duration_minutes": 155
+  },
+  {
+    "title": "Inception",
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "release_year": 2010,
+    "director": "Christopher Nolan",
+    "rating": "PG-13",
+    "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    "duration_minutes": 148
+  },
+  {
+    "title": "Dil Chahta Hai",
+    "description": "Three inseparable childhood friends are just out of college. Nothing comes between them - until they each fall in love, and their wildly different approaches to relationships creates tension.",
+    "genre": ["Comedy", "Drama", "Romance"],
+    "release_year": 2001,
+    "director": "Farhan Akhtar",
+    "rating": "PG-13",
+    "cast": ["Aamir Khan", "Saif Ali Khan", "Akshaye Khanna"],
+    "duration_minutes": 183
+  },
+  {
+    "title": "The Social Network",
+    "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.",
+    "genre": ["Biography", "Drama"],
+    "release_year": 2010,
+    "director": "David Fincher",
+    "rating": "PG-13",
+    "cast": ["Jesse Eisenberg", "Andrew Garfield", "Justin Timberlake"],
+    "duration_minutes": 120
+  },
+  {
+    "title": "Shawshank Redemption",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "genre": ["Drama"],
+    "release_year": 1994,
+    "director": "Frank Darabont",
+    "rating": "R",
+    "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+    "duration_minutes": 142
+  },
+  {
+    "title": "Sacred Games",
+    "description": "A link in their pasts leads an honest cop to a fugitive gang boss, whose cryptic warning spurs the officer on a quest to save Mumbai from cataclysm.",
+    "genre": ["Action", "Crime", "Drama"],
+    "release_year": 2018,
+    "director": "Anurag Kashyap, Vikramaditya Motwane",
+    "rating": "TV-MA",
+    "cast": ["Saif Ali Khan", "Nawazuddin Siddiqui", "Radhika Apte"],
+    "duration_minutes": null
+  },
+  {
+    "title": "Stranger Things",
+    "description": "When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.",
+    "genre": ["Drama", "Fantasy", "Horror"],
+    "release_year": 2016,
+    "director": "Matt Duffer, Ross Duffer",
+    "rating": "TV-14",
+    "cast": ["Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder"],
+    "duration_minutes": null
+  },
+  {
+    "title": "Money Heist (La Casa de Papel)",
+    "description": "A group of unique robbers assault the Factory of Moneda and Timbre to carry out the most perfect robbery in the history of Spain and take home 2.4 billion euros.",
+    "genre": ["Action", "Crime", "Drama"],
+    "release_year": 2017,
+    "director": "Álex Pina",
+    "rating": "TV-MA",
+    "cast": ["Úrsula Corberó", "Álvaro Morte", "Itziar Ituño"],
+    "duration_minutes": null
+  },
+  {
+    "title": "The Crown",
+    "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the twentieth century.",
+    "genre": ["Biography", "Drama", "History"],
+    "release_year": 2016,
+    "director": "Peter Morgan",
+    "rating": "TV-MA",
+    "cast": ["Claire Foy", "Olivia Colman", "Matt Smith"],
+    "duration_minutes": null
+  },
+  {
+    "title": "Fleabag",
+    "description": "A comedy series adapted from the award-winning play about a young woman trying to cope with life in London whilst coming to terms with a recent tragedy.",
+    "genre": ["Comedy", "Drama"],
+    "release_year": 2016,
+    "director": "Phoebe Waller-Bridge",
+    "rating": "TV-MA",
+    "cast": ["Phoebe Waller-Bridge", "Sian Clifford", "Olivia Colman"],
+    "duration_minutes": null
+  },
+  {
+    "title": "Narcos",
+    "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years.",
+    "genre": ["Biography", "Crime", "Drama"],
+    "release_year": 2015,
+    "director": "Chris Brancato, Carlo Bernard, Doug Miro",
+    "rating": "TV-MA",
+    "cast": ["Pedro Pascal", "Wagner Moura", "Boyd Holbrook"],
+    "duration_minutes": null
+  },
+  {
+    "title": "The Mandalorian",
+    "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "release_year": 2019,
+    "director": "Jon Favreau",
+    "rating": "TV-14",
+    "cast": ["Pedro Pascal", "Gina Carano", "Carl Weathers"],
+    "duration_minutes": null
+  },
+  {
+    "title": "Paatal Lok",
+    "description": "A down-and-out cop lands the case of a lifetime when four suspects are nabbed in the assassination attempt of a journalist. The pursuit of it leads him to 'Paatal Lok', and to shocking discoveries in the past of the four suspects.",
+    "genre": ["Crime", "Drama", "Thriller"],
+    "release_year": 2020,
+    "director": "Sudip Sharma",
+    "rating": "TV-MA",
+    "cast": ["Jaideep Ahlawat", "Neeraj Kabi", "Abhishek Banerjee"],
+    "duration_minutes": null
+  },
+  {
+    "title": "The Boys",
+    "description": "A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.",
+    "genre": ["Action", "Comedy", "Crime"],
+    "release_year": 2019,
+    "director": "Eric Kripke",
+    "rating": "TV-MA",
+    "cast": ["Karl Urban", "Jack Quaid", "Antony Starr"],
+    "duration_minutes": null
+  },
+  {
+    "title": "Mirzapur",
+    "description": "A shocking incident at a wedding procession ignites a series of events entangling the lives of two families in the lawless city of Mirzapur.",
+    "genre": ["Action", "Crime", "Drama"],
+    "release_year": 2018,
+    "director": "Karan Anshuman, Gurmeet Singh",
+    "rating": "TV-MA",
+    "cast": ["Pankaj Tripathi", "Ali Fazal", "Divyendu Sharma"],
+    "duration_minutes": null
   }
 ]
