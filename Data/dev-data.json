@@ -1105,5 +1105,45 @@
     "rating": "TV-MA",
     "cast": ["Pankaj Tripathi", "Ali Fazal", "Divyendu Sharma"],
     "duration_minutes": null
+  },
+  {
+    "title": "Good Will Hunting",
+    "description": "Will Hunting, a janitor at M.I.T., has a gift for mathematics but needs help from a psychologist to find direction in his life.",
+    "genre": ["Drama"],
+    "release_year": 1997,
+    "director": "Gus Van Sant",
+    "rating": "R",
+    "cast": ["Matt Damon", "Robin Williams", "Ben Affleck"],
+    "duration_minutes": 126
+  },
+  {
+    "title": "The Green Mile",
+    "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.",
+    "genre": ["Crime", "Drama", "Fantasy"],
+    "release_year": 1999,
+    "director": "Frank Darabont",
+    "rating": "R",
+    "cast": ["Tom Hanks", "Michael Clarke Duncan", "David Morse"],
+    "duration_minutes": 189
+  },
+  {
+    "title": "Whiplash",
+    "description": "A promising young drummer enrolls at a cutthroat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+    "genre": ["Drama", "Music"],
+    "release_year": 2014,
+    "director": "Damien Chazelle",
+    "rating": "R",
+    "cast": ["Miles Teller", "J.K. Simmons", "Melissa Benoist"],
+    "duration_minutes": 106
+  },
+  {
+    "title": "The Imitation Game",
+    "description": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians.",
+    "genre": ["Biography", "Drama", "Thriller"],
+    "release_year": 2014,
+    "director": "Morten Tyldum",
+    "rating": "PG-13",
+    "cast": ["Benedict Cumberbatch", "Keira Knightley", "Matthew Goode"],
+    "duration_minutes": 113
   }
 ]
