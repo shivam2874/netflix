@@ -51,39 +51,43 @@ export const register = async (req, res, next) => {
 
 /**Login Controller */
 export const login = async (req, res, next) => {
-  const { email, password } = req.body;
-  const user = await signUser(email, password);
-  const access_token = await generateToken(
-    { userId: user._id },
-    process.env.TOKEN_EXPIRE,
-    process.env.REFRESH_TOKEN_SECRET
-  );
+  try {
+    const { email, password } = req.body;
+    const user = await signUser(email, password);
+    const access_token = await generateToken(
+      { userId: user._id },
+      process.env.TOKEN_EXPIRE,
+      process.env.REFRESH_TOKEN_SECRET
+    );
 
-  // Refresh Token
-  const refresh_token = await generateToken(
-    { userID: user._id },
-    process.env.TOKEN_EXPIRE,
-    process.env.REFRESH_TOKEN_SECRET
-  );
+    // Refresh Token
+    const refresh_token = await generateToken(
+      { userID: user._id },
+      process.env.TOKEN_EXPIRE,
+      process.env.REFRESH_TOKEN_SECRET
+    );
 
-  res.cookie("refreshtoken", refresh_token, {
-    httpOnly: true,
-    path: "/api/v1/auth/refreshtoken",
-    maxAge: 30 * 24 * 60 * 1000, //30 days
-  });
+    res.cookie("refreshtoken", refresh_token, {
+      httpOnly: true,
+      path: "/api/v1/auth/refreshtoken",
+      maxAge: 30 * 24 * 60 * 1000, //30 days
+    });
 
-  res.status(200).json({
-    status: "sucess",
-    user: {
-      _id: user._id,
-      name: user.name,
-      email: user.email,
-      password: user.password,
-      picture: user.picture,
-      status: user.status,
-      access_token,
-    },
-  });
+    res.status(200).json({
+      status: "sucess",
+      user: {
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        password: user.password,
+        picture: user.picture,
+        status: user.status,
+        access_token,
+      },
+    });
+  } catch (error) {
+    next(error);
+  }
 };
 
 /**Logout Controller */
