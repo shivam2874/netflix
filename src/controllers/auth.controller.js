@@ -1,6 +1,8 @@
 import { createUser, signUser } from "../services/auth.service.js";
 import { generateToken } from "../services/token.service.js";
 
+/** Register Controller */
+
 export const register = async (req, res, next) => {
   try {
     const { name, email, password, picture } = req.body;
@@ -25,6 +27,7 @@ export const register = async (req, res, next) => {
       process.env.REFRESH_TOKEN_SECRET
     );
 
+    //Setting Cookie
     res.cookie("refreshtoken", refresh_token, {
       httpOnly: true,
       path: "/api/v1/auth/refreshtoken",
@@ -45,6 +48,8 @@ export const register = async (req, res, next) => {
     next(error);
   }
 };
+
+/**Login Controller */
 export const login = async (req, res, next) => {
   const { email, password } = req.body;
   const user = await signUser(email, password);
@@ -80,9 +85,24 @@ export const login = async (req, res, next) => {
     },
   });
 };
+
+/**Logout Controller */
 export const logout = async (req, res, next) => {
-  res.send("Hello from Logout");
+  try {
+    //Clear Cookie
+
+    res.clearCookie("refreshtoken", { path: "api/v1/auth/refreshtoken" });
+
+    res.status(200).json({
+      status: "Sucess",
+      message: "Logged out Sucessfully",
+    });
+  } catch (error) {
+    next(error);
+  }
 };
+
+/**RefreshToken Controller */
 export const refreshToken = async (req, res, next) => {
   res.send("Hello from refresh Token");
 };
